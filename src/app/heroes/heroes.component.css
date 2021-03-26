@@ -14,14 +14,15 @@
     height: 1.6em;
     border-radius: 4px;
 }
-.heroes li.selected {
-    background-color: #CFD8DC;
-    color: white;
+.heroes li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
 }
-.heroes li.selected:hover {
-    background-color: #BBD8DC;
-    color: white;
+.heroes a:hover {
+    color: #607D8B;
 }
+
 .heroes .badge {
     display: inline-block;
     font-size: small;
